@@ -1,0 +1,30 @@
+body{
+    font-family: 'Figtree';
+}
+
+h1, h2{
+    font-weight: 900;
+}
+
+.car-card .car-photo{
+    transition: transform 0.2s ease-out;
+}
+
+.car-card:hover .car-photo{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-out;
+}
+
+.sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.form-group{
+    padding-top: 5px;
+}
+
+.hiddenRow{
+    padding: 0 !important;
+}
