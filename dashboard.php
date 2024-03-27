@@ -191,6 +191,14 @@ $res = $pdo->query("
                             <input type="text" class="form-control" id="enterijer" name="enterijer" placeholder="Enterijer (npr. Leather, Fabric)">
                         </div>
                         <div class="form-group col-sm-4">
+                            <label for="gorivo">Gorivo</label>
+                            <input type="text" class="form-control" id="gorivo" name="gorivo" placeholder="Gorivo (npr. Petrol, Diesel)">
+                        </div>
+                        <div class="form-group col-sm-4">
+                            <label for="enterijer">Zapremina rezervoara</label>
+                            <input type="text" class="form-control" id="rezervoar" name="rezervoar" placeholder="Zapremina (npr. 40 l)">
+                        </div>
+                        <div class="form-group col-sm-4">
                             <label for="pogon">Pogon</label>
                             <br>
                             <div class="form-check form-check-inline">
